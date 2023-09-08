@@ -53,7 +53,7 @@ const Navigation = () => {
                 ) : (
                     <div className='fixed w-full h-full p-5 bg-background grid grid-cols-1 content-between'>
                         <div className='flex flex-row items-center justify-between'>
-                            <a href="" className='text-primary font-semibold font-chakraPetch'> .mavelar_ </a>
+                            <a href="" className='text-primary font-semibold font-chakraPetch'> .masvelar_ </a>
                             <div onClick={handleNav} className='bg-primary z-[99] p-1 rounded-full cursor-pointer md:hidden'>
                                 <PiCode className='text-white stroke-[2px]' size={23} />
                             </div>
@@ -71,7 +71,7 @@ const Navigation = () => {
 
             <div className='fixed w-full h-full p-5 bg-background md:grid grid-cols-1 content-between hidden'>
                 <div className='flex flex-row items-center justify-between'>
-                    <a href="" className='text-primary text-[18px] font-semibold font-chakraPetch'> .mavelar_ </a>
+                    <a href="" className='text-primary text-[18px] font-semibold font-chakraPetch'> .masvelar_ </a>
                     <div className='flex flex-row'>
                         <a href="" className='pr-3'>
                             <PiFacebookLogoFill className='text-primary' size={28} />
@@ -114,7 +114,7 @@ const Navigation = () => {
 
             <div className='fixed w-full h-full p-5 bg-background lg:grid grid-cols-1 content-between hidden'>
                 <div className='flex flex-row items-center justify-between'>
-                    <a href="" className='text-primary text-[20px] font-semibold font-chakraPetch'> .mavelar_ </a>
+                    <a href="" className='text-primary text-[20px] font-semibold font-chakraPetch'> .masvelar_ </a>
                     <div className='flex flex-row'>
                         <a href="" className='pr-3'>
                             <PiFacebookLogoFill className='text-primary' size={30} />
