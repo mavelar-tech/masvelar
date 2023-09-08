@@ -12,6 +12,7 @@ const Hello = () => {
                         sequence={['design', 2000, 'develop', 2000, 'deploy', 2000]}
                         repeat={Infinity}
                         deletionSpeed={30}
+                        cursor={false}
                     />
                 </h1>
                 <h1 className="font-manrope font-semibold text-[3.052rem] md:text-[3.815rem] lg:text-[4.768rem] m-0">websites</h1>
