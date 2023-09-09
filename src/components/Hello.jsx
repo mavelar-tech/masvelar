@@ -13,7 +13,7 @@ const Hello = () => {
 4.768rem] leading-tight mb-2 lg:leading-loose'> Mary Ann </span>
                     <p className='font-manrope font-medium text-xs ms:text-sm'> I build value by producing quality websites. </p>
                 </div>
-                <img src="/mean.jpg" alt="Mary Ann Velar" className="max-w-[300px] h-auto ml-auto" />
+                <img src="/mean.jpg" alt="Mary Ann Velar" className="max-w-[270px] h-auto ml-auto 2xs:w-[full] 2xs:mr-auto" />
             </div>
         </div>
     )
