@@ -16,10 +16,12 @@
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 html {
   background-color: #FDFCFC;
+  overflow: hidden;
 }
 
 p {
@@ -108,4 +110,12 @@ small,
 
 .custom-scrollbar-thumb-vertical:hover {
   background: #5B9999;
+}
+
+.ScrollSnap {
+  scroll-snap-type: y mandatory;
+}
+
+.ScrollSnapContent {
+  scroll-snap-align: start;
 }

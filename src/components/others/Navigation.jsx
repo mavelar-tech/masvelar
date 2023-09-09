@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Scrollbars } from 'react-custom-scrollbars-2';
 import { PiCode, PiX, PiFacebookLogoFill, PiGithubLogoFill, PiDribbbleLogoFill, PiLinkedinLogoFill } from "react-icons/pi";
 import Main from './Main'
 
