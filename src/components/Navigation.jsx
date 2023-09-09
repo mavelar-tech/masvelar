@@ -51,7 +51,7 @@ const Navigation = () => {
                         </div>
                     </div>
                 ) : (
-                    <div className='fixed w-full h-screen p-5 bg-background grid grid-cols-1 content-between'>
+                    <div className='fixed w-full h-screen flex flex-col p-5 bg-background'>
                         <div className='flex flex-row items-center justify-between'>
                             <a href="" className='text-primary font-semibold font-chakraPetch'> .masvelar_ </a>
                             <div onClick={handleNav} className='bg-primary z-[99] p-1 rounded-full cursor-pointer md:hidden'>
@@ -69,7 +69,7 @@ const Navigation = () => {
                 )
             }
 
-            <div className='fixed w-full h-screen p-5 bg-background md:grid grid-cols-1 content-between hidden'>
+            <div className='fixed w-full h-screen p-5 bg-background md:flex flex-col hidden'>
                 <div className='flex flex-row items-center justify-between'>
                     <a href="" className='text-primary text-[18px] font-semibold font-chakraPetch'> .masvelar_ </a>
                     <div className='flex flex-row'>
@@ -112,7 +112,7 @@ const Navigation = () => {
                 </div>
             </div>
 
-            <div className='fixed w-full h-screen p-5 bg-background lg:grid grid-cols-1 content-between hidden'>
+            <div className='fixed w-full h-screen p-5 bg-background lg:flex flex-col hidden'>
                 <div className='flex flex-row items-center justify-between'>
                     <a href="" className='text-primary text-[20px] font-semibold font-chakraPetch'> .masvelar_ </a>
                     <div className='flex flex-row'>

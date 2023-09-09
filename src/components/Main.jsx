@@ -5,7 +5,7 @@ import Hello from './Hello'
 
 const Main = () => {
     return (
-        <div id='main' className='h-[36rem] max-h-[36rem] px-10 md:px-20 lg:px-40'>
+        <div id='main' className='flex-grow mt-20 mb-20 px-10 md:px-20 lg:px-40'>
             <Scrollbars
                 autoHide={false}
                 style={{overflowX: 'hidden'}}
