@@ -18,10 +18,11 @@ module.exports = {
       }
     },
     screens: {
-      'xs': {'min': '320'},
-      'sm': {'min': '567px'},
-      'md': {'min': '768px'},
-      'lg': {'min': '1024px'}
+      'xs': '320px',
+      'sm': '600px',
+      'md': '768px',
+      'lg': '1200px',
+      'customMD': '880px',
     },
   },
   plugins: [],
