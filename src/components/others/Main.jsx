@@ -5,7 +5,7 @@ import Hello from './Hello'
 
 const Main = () => {
     return (
-        <div id='main' className='flex-grow mt-20 mb-20 px-10 md:px-20 lg:px-40 Container'>
+        <div className='fixed overflow-hidden w-full h-screen p-20 md:p-30 lg:p-36 ScrollSnap'>
             <Scrollbars
                 autoHide={false}
                 style={{overflowX: 'hidden'}}
@@ -23,8 +23,8 @@ const Main = () => {
                         style={{ width: '3px', height: '100%' }}
                     />
                 )}>
-                <Intro />
-                <Hello />
+                <Intro className='ScrollSnapContent' />
+                <Hello className='ScrollSnapContent' />
             </Scrollbars>
         </div>
     )
