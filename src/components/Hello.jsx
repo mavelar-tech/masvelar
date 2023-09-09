@@ -1,21 +1,19 @@
 import React from 'react'
-import { TypeAnimation } from 'react-type-animation';
 
 const Hello = () => {
     return (
-        <div className='px-10 md:px-20 lg:px-35 h-full flex flex-col justify-around'>
-            <div className="flex flex-wrap items-center">
-                <h1 className="font-manrope font-semibold text-[3.052rem] md:text-[3.815rem] lg:text-[4.768rem] m-0">i</h1>
-                <h1 className="text-accent m-0 px-3 text-[3.052rem] md:text-[3.815rem] lg:text-[4.768rem]">
-                    <TypeAnimation
-                        className="font-manrope font-semibold type"
-                        sequence={['design', 2000, 'develop', 2000, 'deploy', 2000]}
-                        repeat={Infinity}
-                        deletionSpeed={30}
-                        cursor={false}
-                    />
-                </h1>
-                <h1 className="font-manrope font-semibold text-[3.052rem] md:text-[3.815rem] lg:text-[4.768rem] m-0">websites</h1>
+        <div className='px-8 md:px-20 lg:px-35 h-full flex flex-col justify-around'>
+            <div className='grid grid-cols-1 content-around md:justify-end lg:grid-cols-2'>
+                <div className='flex flex-col mb-4'>
+                    <div className='flex flex-row items-center'>
+                        <span className="font-chakraPetch lg:text-[3.052rem] mr-5">HELLO. I AM </span>
+                        <hr className="flex-grow sm:flex-shrink border-1 border-primary" />
+                    </div>
+                    <span className='text-accent font-chakraPetch font-medium text-[3.052rem] lg:text[
+4.768rem] leading-tight mb-2 lg:leading-loose'> Mary Ann </span>
+                    <p className='font-manrope font-medium text-xs ms:text-sm'> I build value by producing quality websites. </p>
+                </div>
+                <img src="/mean.jpg" alt="Mary Ann Velar" className="max-w-[268px] h-auto md:max-w-[280] ml-auto" />
             </div>
         </div>
     )
